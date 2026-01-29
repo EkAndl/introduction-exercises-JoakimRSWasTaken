@@ -9,7 +9,9 @@ const numberTwo = "2.30";
 
 const exercise3Sum = parseFloat(numberOne) + parseFloat(numberTwo);
 
+console.log("Exercise 3 - Add numbers from string to float");
 console.log(exercise3Sum);
+console.log("");
 
 // --------------------------------------
 // Exercise 4 - Add the numbers and the total with 2 decimals
@@ -19,7 +21,10 @@ const anotherNumberTwo = "2.30";
 
 const exercise4Sum = parseFloat(anotherNumberOne) + parseFloat(anotherNumberTwo);
 const fixedDecimalSum = exercise4Sum.toFixed(2);
+
+console.log("Exercise 4 - Add the numbers and the total with 2 decimals");
 console.log(fixedDecimalSum);
+console.log("");
 
 // --------------------------------------
 // Exercise 5 - Decimals and average
@@ -33,7 +38,9 @@ const three = 98;
 const sum = one + two + three;
 const average = sum/3;
 
+console.log("Exercise 5 - Decimals and average");
 console.log(average);
+console.log("");
 
 // --------------------------------------
 // Exercise 6 - Get the character by index
@@ -43,8 +50,9 @@ const letters = "abc";
 
 const letter = letters.charAt(2);
 
+console.log("Exercise 6 - Get the character by index");
 console.log(letter);
-
+console.log("");
 
 // --------------------------------------
 // Exercise 7 - Replace
@@ -56,7 +64,9 @@ const fact = "You are learning javascript!";
 // Finds first instance of "j" and replaces, I'm assuming
 const replacedLetterFact = fact.replace("j", "J");
 
+console.log("Exercise 7 - Replace");
 console.log(replacedLetterFact);
+console.log("");
 
 // --------------------------------------
 

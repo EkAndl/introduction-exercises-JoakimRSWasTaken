@@ -6,7 +6,9 @@
 const letters = ["a", "b", "c"];
 // show b in the console 
 
+console.log("(Arrays now) Exercise 1 - Array Positioning");
 console.log(letters[1]);
+console.log("");
 
 // --------------------------------------
 // Exercise 2 - Array Positioning
@@ -23,7 +25,9 @@ friends.push(friend1);
 friends.push(friend2);
 friends.push(friend3);
 
+console.log("Exercise 2 - Array Positioning");
 console.log(friends);
+console.log("");
 
 // --------------------------------------
 // Exercise 3 - Get the index of first occurance of that value. 
@@ -35,8 +39,9 @@ const significantMathNumbers = [0, 2.718, 3.14159, 1729];
 
 const index = significantMathNumbers.indexOf(1729);
 
+console.log("Exercise 3 - Get the index of first occurance of that value.");
 console.log(index);
-
+console.log("");
 
 // --------------------------------------
 // Exercise 4 - Inserting elements
@@ -48,8 +53,10 @@ const diet = ["tomato", "cucumber", "rocket"];
 
 diet.splice(2, 0, "hamburger", "soda", "pizza");
 
-console.log("Beefed up diet:");
+console.log("Exercises 4, 5 and 6 - Inserting, removing and copying");
+console.log("Diet increased:");
 console.log(diet);
+console.log("");
 
 // --------------------------------------
 // Exercise 5 - Remove element
@@ -73,6 +80,7 @@ console.log("Diet:");
 console.log(diet);
 console.log("Dinner tray:");
 console.log(dinnerTray);
+console.log("");
 
 // --------------------------------------
 // Exercise 7 - For loop
@@ -81,12 +89,16 @@ const lettersExpanded = ["a", "b", "c", "d", "e", "f", "g", "h"];
 
 // log every second char in the array starting from b
 
+console.log("Exercise 7 - For loop");
+
 for (let i = 1; i < lettersExpanded.length; i++) {
     // Modulo 2 for finding even numbers
     if (i % 2 !== 0) {
         console.log(lettersExpanded[i]);
     };
 };
+
+console.log("");
 
 // --------------------------------------
 // Exercise 8 - For loop and if statement
@@ -106,8 +118,7 @@ function checkNumber(numberToCheck) {
     }
 }
 
+console.log("Exercise 8 - For loop and if statement");
 numbers.forEach(checkNumber);
 
 // --------------------------------------
-
-

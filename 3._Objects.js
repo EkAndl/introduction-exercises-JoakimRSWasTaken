@@ -7,7 +7,9 @@ const greetings = { message: "Hello, earthling! I bring peace." };
 
 // Log the message 
 
+console.log("(Objects now) Exercise 1 - Retrieve value from object by key");
 console.log(greetings.message);
+console.log("");
 
 // --------------------------------------
 // Exercise 2 - Defining an object.
@@ -28,7 +30,9 @@ const stackOverflow = {};
 
 stackOverflow.isAllowed = true;
 
+console.log("Exercise 3 - Add a key-value pair");
 console.log(stackOverflow);
+console.log("");
 
 // --------------------------------------
 // Exercise 4 - Remove a property

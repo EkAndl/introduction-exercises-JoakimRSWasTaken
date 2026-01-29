@@ -13,7 +13,9 @@ const lastName = "Latif";
 // en String med backticks kaldes en String template literal. At bruge ${}-syntaksen kaldes String interpolation
 const introduction = `My first name is ${firstName} and my last name is ${lastName}`;
 
+console.log("Exercise 1 - Console and constiables")
 console.log(introduction);
+console.log("");
 
 // --------------------------------------
 
@@ -32,7 +34,9 @@ const increment = 1;
 const yearAsNumber = parseInt(year);
 const incrementedYear = yearAsNumber + increment;
 
+console.log("Exercise 2 - Numbers and Strings")
 console.log(incrementedYear);
+console.log("");
 
 // --------------------------------------
 
