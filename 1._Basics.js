@@ -10,7 +10,10 @@ const lastName = "Latif";
 // show in the console
 // My first name is Anders and my last name is Latif
 
-console.log(`My first name is ${firstName} and my last name is ${lastName}`)
+// en String med backticks kaldes en String template literal. At bruge ${}-syntaksen kaldes String interpolation
+const introduction = `My first name is ${firstName} and my last name is ${lastName}`;
+
+console.log(introduction);
 
 // --------------------------------------
 
