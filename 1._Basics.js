@@ -27,6 +27,8 @@ const increment = 1;
 // The result should be 2026
 // You cannot touch the first or the second line
 
+// const incrementedYear = + year + increment
+
 const yearAsNumber = parseInt(year);
 const incrementedYear = yearAsNumber + increment;
 
