@@ -30,7 +30,10 @@ const three = 98;
 
 // Show in the console the avg. with 5 decimals
 
+const sum = one + two + three;
+const average = sum/3;
 
+console.log(average);
 
 // --------------------------------------
 // Exercise 6 - Get the character by index
@@ -38,7 +41,9 @@ const three = 98;
 const letters = "abc";
 // Get me the character "c"
 
+const letter = letters.charAt(2);
 
+console.log(letter);
 
 
 // --------------------------------------
@@ -48,6 +53,10 @@ const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
 
+// Finds first instance of "j" and replaces, I'm assuming
+const replacedLetterFact = fact.replace("j", "J");
+
+console.log(replacedLetterFact);
 
 // --------------------------------------
 
